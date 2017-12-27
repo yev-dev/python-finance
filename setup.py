@@ -2,7 +2,6 @@ from setuptools import setup, find_packages
 import sys, os
 
 here = os.path.abspath(os.path.dirname(__file__))
-README = open(os.path.join(here, 'README.rst')).read()
 
 version = '0.0.1'
 
@@ -16,7 +15,6 @@ install_requires = [
 setup(name='pyfbox',
     version=version,
     description="A toy project to explore Python applicable to finance",
-    long_description=README,
     classifiers=[
       # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
     ],
