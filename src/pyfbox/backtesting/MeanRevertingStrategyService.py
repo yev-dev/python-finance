@@ -194,7 +194,7 @@ import pandas as pd
 
 class Backtester:
     def __init__(self, symbol, start_date, end_date,
-                 data_source="google"):
+                 data_source="yahoo"):
         self.target_symbol = symbol
         self.data_source = data_source
         self.start_dt = start_date
